@@ -1,17 +1,21 @@
 import React from 'react'
-// import Navbar from './Components/Navbar'
-// import Post from './Components/Post'
-import Mainrouter from './Mainrouter'
-import {BrowserRouter} from 'react-router-dom'
+import Navbar from './MyComponents/Navbar'
+import Post  from './MyComponents/Post'
+import { Routes, Route } from "react-router-dom";
+import Signup from './MyComponents/Signup'
+import Cart from './MyComponents/Cart';
 
 function App() {
   return (
-    <BrowserRouter>
-    {/* <Signup />
-    <Login /> */}
-    {/* <Interval/> */}
-    <Mainrouter />  
-  </BrowserRouter>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Post/>} />
+        <Route exact path="/products" element={<Signup/>} />
+        <Route exact path="/cart" element={<Cart/>} />
+       
+      </Routes>
+    </div>
   )
 }
 

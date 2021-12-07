@@ -1,139 +1,183 @@
-export const Users = [
-    {
-      id:1,
-      profilePicture: "assets/1.jpeg",
-      username: "Safak Kocaoglu",
-    },
-    {
-      id:2,
-      profilePicture: "assets/2.jpeg",
-      username: "Janell Shrum",
-    },
-    {
-      id:3,
-      profilePicture: "assets/3.jpeg",
-      username: "Alex Durden",
-    },
-    {
-      id:4,
-      profilePicture: "assets/4.jpeg",
-      username: "Dora Hawks",
-    },
-    {
-      id:5,
-      profilePicture: "assets/5.jpeg",
-      username: "Thomas Holden",
-    },
-    {
-      id:6,
-      profilePicture: "assets/6.jpeg",
-      username: "Shirley Beauchamp",
-    },
-    {
-      id:7,
-      profilePicture: "assets/7.jpeg",
-      username: "Travis Bennett",
-    },
-    {
-      id:8,
-      profilePicture: "assets/8.jpeg",
-      username: "Kristen Thomas",
-    },
-    {
-      id:9,
-      profilePicture: "assets/9.jpeg",
-      username: "Gary Duty",
-    },
-    {
-      id:10,
-      profilePicture: "assets/10.jpeg",
-      username: "Safak Kocaoglu",
-    },
-  ];
-  
-  export const Posts = [
-    {
-      id: 1,
-      desc: "Love For All, Hatred For None.",
-      photo: "assets/1.jpeg",
-      date: "5 mins ago",
-      userId: 1,
-      like: 32,
-      comment: 9,
-    },
-    {
-      id: 2,
-      photo: "assets/2.jpeg",
-      date: "15 mins ago",
-      userId: 2,
-      like: 2,
-      comment: 1,
-    },
-    {
-      id: 3,
-      desc: "Every moment is a fresh beginning.",
-      photo: "assets/3.jpeg",
-      date: "1 hour ago",
-      userId: 3,
-      like: 61,
-      comment: 2,
-    },
-    {
-      id: 4,
-      photo: "assets/4.jpeg",
-      date: "4 hours ago",
-      userId: 4,
-      like: 7,
-      comment: 3,
-    },
-    {
-      id: 5,
-      photo: "assets/5.jpeg",
-      date: "5 hours ago",
-      userId: 5,
-      like: 23,
-      comment: 5,
-    },
-    {
-      id: 6,
-      photo: "assets/6.jpeg",
-      date: "1 day ago",
-      userId: 6,
-      like: 44,
-      comment: 6,
-    },
-    {
-      id: 7,
-      desc: "Never regret anything that made you smile.",
-      photo: "assets/7.jpeg",
-      date: "2 days ago",
-      userId: 7,
-      like: 52,
-      comment: 3,
-    },
-    {
-      id: 8,
-      photo: "assets/8.jpeg",
-      date: "3 days ago",
-      userId: 8,
-      like: 15,
-      comment: 1,
-    },
-    {
-      id: 9,
-      desc: "Change the world by being yourself.",
-      photo: "assets/9.jpeg",
-      date: "5 days ago",
-      userId: 9,
-      like: 11,
-      comment: 2,
-    },
-    {
-      id: 10,
-      photo: "assets/10.jpeg",
-      date: "1 week ago",
-      userId: 10,
-      like: 104,
-      comment: 12,
-    },
-  ];
+
+export const Posts = [{
+    "title": "Brown eggs",
+    "type": "dairy",
+    "description": "Raw organic brown eggs in a basket",
+    "filename": "assets/0.jpg",
+    "height": 600,
+    "width": 400,
+    "price": 28.1,
+    "rating": 4
+  }, {
+    "title": "Sweet fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "filename": "assets/1.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 29.45,
+    "rating": 4
+  }, {
+    "title": "Asparagus",
+    "type": "vegetable",
+    "description": "Asparagus with ham on the wooden table",
+    "filename": "assets/2.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 18.95,
+    "rating": 3
+  }, {
+    "title": "Green smoothie",
+    "type": "dairy",
+    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+    "filename": "assets/3.jpg",
+    "height": 600,
+    "width": 399,
+    "price": 17.68,
+    "rating": 4
+  }, {
+    "title": "Raw legums",
+    "type": "vegetable",
+    "description": "Raw legums on the wooden table",
+    "filename": "assets/4.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 17.11,
+    "rating": 2
+  }, {
+    "title": "Baking cake",
+    "type": "dairy",
+    "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+    "filename": "assets/5.jpg",
+    "height": 450,
+    "width": 675,
+    "price": 11.14,
+    "rating": 4
+  }, {
+    "title": "Pesto with basil",
+    "type": "vegetable",
+    "description": "Italian traditional pesto with basil, chesse and oil",
+    "filename": "assets/6.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 18.19,
+    "rating": 2
+  }, {
+    "title": "Hazelnut in black ceramic bowl",
+    "type": "vegetable",
+    "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
+    "filename": "assets/7.jpg",
+    "height": 450,
+    "width": 301,
+    "price": 27.35,
+    "rating": 0
+  }, {
+    "title": "Fresh stawberry",
+    "type": "fruit",
+    "description": "Sweet fresh stawberry on the wooden table",
+    "filename": "assets/8.jpg",
+    "height": 600,
+    "width": 399,
+    "price": 28.59,
+    "rating": 4
+  }, {
+    "title": "Lemon and salt",
+    "type": "fruit",
+    "description": "Rosemary, lemon and salt on the table",
+    "filename": "assets/9.jpg",
+    "height": 450,
+    "width": 299,
+    "price": 15.79,
+    "rating": 5
+  }, {
+    "title": "Homemade bread",
+    "type": "bakery",
+    "description": "Homemade bread",
+    "filename": "assets/10.jpg",
+    "height": 450,
+    "width": 301,
+    "price": 17.48,
+    "rating": 3
+  }, {
+    "title": "Legums",
+    "type": "vegetable",
+    "description": "Cooked legums on the wooden table",
+    "filename": "assets/11.jpg",
+    "height": 600,
+    "width": 399,
+    "price": 14.77,
+    "rating": 0
+  }, {
+    "title": "Fresh tomato",
+    "type": "vegetable",
+    "description": "Fresh tomato juice with basil",
+    "filename": "assets/12.jpg",
+    "height": 600,
+    "width": 903,
+    "price": 16.3,
+    "rating": 2
+  }, {
+    "title": "Healthy breakfast",
+    "type": "fruit",
+    "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
+    "filename": "assets/13.jpg",
+    "height": 450,
+    "width": 350,
+    "price": 13.02,
+    "rating": 2
+  }, {
+    "title": "Green beans",
+    "type": "vegetable",
+    "description": "Raw organic green beans ready to eat",
+    "filename": "assets/14.jpg",
+    "height": 450,
+    "width": 300,
+    "price": 28.79,
+    "rating": 1
+  }, {
+    "title": "Baked stuffed portabello mushrooms",
+    "type": "bakery",
+    "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
+    "filename": "assets/15.jpg",
+    "height": 600,
+    "width": 400,
+    "price": 20.31,
+    "rating": 1
+  }, {
+    "title": "Strawberry jelly",
+    "type": "fruit",
+    "description": "Homemade organic strawberry jelly in a jar",
+    "filename": "assets/16.jpg",
+    "height": 400,
+    "width": 600,
+    "price": 14.18,
+    "rating": 1
+  }, {
+    "title": "Pears juice",
+    "type": "fruit",
+    "description": "Fresh pears juice on the wooden table",
+    "filename": "assets/17.jpg",
+    "height": 600,
+    "width": 398,
+    "price": 19.49,
+    "rating": 4
+  }, {
+    "title": "Fresh pears",
+    "type": "fruit",
+    "description": "Sweet fresh pears on the wooden table",
+    "filename": "assets/18.jpg",
+    "height": 600,
+    "width": 398,
+    "price": 15.12,
+    "rating": 5
+  }, {
+    "title": "Caprese salad",
+    "type": "vegetable",
+    "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
+    "filename": "assets/19.jpg",
+    "height": 400,
+    "width": 600,
+    "price": 16.76,
+    "rating": 5
+  }
+]
